@@ -18,6 +18,6 @@ privateRoutes.put('/products/:id', UpdateController);
 privateRoutes.delete('/products/:id', DeleteController);
 publicRoutes.get('/products/:id/images', ListingImageController);
 privateRoutes.post('/products/:id/images', CreateImageController);
-privateRoutes.put('/products/:id/images', UpdateImagesController);
+privateRoutes.put('/products/:id/images/:imageId', UpdateImagesController);
 
 module.exports = [publicRoutes, privateRoutes];
