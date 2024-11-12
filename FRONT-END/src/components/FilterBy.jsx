@@ -5,13 +5,13 @@ function FilterBy (){
     
     return(
         
-        <div className="bg-[white] min-w-[308px] h-full px-[30px] py-[30px] rounded"> {/* Div Principal engloba tudo */}
+        <div className="bg-[white] min-w-[308px] h-full px-[30px] py-[30px] rounded"> {/* Div Conteiner */}
         <form>
 
-        <div className="pb-[20px] border-b-[1px] border-[#CCCCCC] font-bold text-[#474747] text-[16px]"> {/* Div do nome "Filtrar por" */}
+        <div className="pb-[20px] border-b-[1px] border-[#CCCCCC] font-bold text-[#474747] text-[16px]"> {/* Div FiltrarBy */}
             Filtrar por
         </div>
-        <div className="pt-[20px] ">  {/* Div da categoria "Marka" */}
+        <div className="pt-[20px] ">  {/* Div Marka */}
             <div className=" font-bold text-[#474747] text-[16px] pb-2">
             Marka
             </div>
@@ -37,7 +37,7 @@ function FilterBy (){
             </div>
         </div>
 
-        <div className="pt-[20px]"> {/* Div da categoria "Categoria" */}
+        <div className="pt-[20px]"> {/* Div Categorias */}
             <div className="font-bold text-[#474747] text-[16px] pb-2">
             Categoria
             </div>
@@ -59,7 +59,7 @@ function FilterBy (){
             </div>
         </div>
 
-        <div className="pt-[20px]"> {/* Div da categoria "Gênero" */}
+        <div className="pt-[20px]"> {/* Div Gênero */}
             <div className="font-bold text-[#474747] text-[16px] pb-2">
             Gênero
             </div>
@@ -77,7 +77,7 @@ function FilterBy (){
             </div>
         </div>
 
-        <div className="pt-[20px]"> {/* Div da categoria "Estado" */}
+        <div className="pt-[20px]"> {/* Div Estado */}
             <div className="font-bold text-[#474747] text-[16px] pb-2">
             Estado
             </div>

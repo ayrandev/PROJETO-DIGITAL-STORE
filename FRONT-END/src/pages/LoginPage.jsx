@@ -1,14 +1,14 @@
-import LoginPage from "../components/FormLogin"
-import Layout from "../components/Layout"
+
+import FormLogin from "../components/FormLogin"
+import HeaderLogin from "../components/hearder-comp/HeaderLogin"
 
 function App (){
     
     return(
-        <>  
-            <Layout>
-                <LoginPage/>
-            </Layout>
-        </>
+        <>
+        <HeaderLogin/> 
+        <FormLogin/>
+      </>  
     )
 }
 

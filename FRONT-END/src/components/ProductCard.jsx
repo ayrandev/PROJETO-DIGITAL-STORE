@@ -14,10 +14,7 @@ export default function ProductCard(props){
               <span className="font-bold">{props.priceDiscount}</span>
             </div>
           </div>
-        
         </div>
-       
-        
       </div>
     </>
   )
