@@ -1,4 +1,5 @@
 
+import Footer from "../components/Footer"
 import FormLogin from "../components/FormLogin"
 import HeaderLogin from "../components/hearder-comp/HeaderLogin"
 
@@ -8,6 +9,7 @@ function App (){
         <>
         <HeaderLogin/> 
         <FormLogin/>
+        <Footer/>
       </>  
     )
 }

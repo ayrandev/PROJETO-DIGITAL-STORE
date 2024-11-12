@@ -6,7 +6,7 @@ import {
 
 import HomePage from "./pages/HomePage";
 import ProductListingPage from "./pages/ProductListingPage";
-import LoginPage from "./components/FormLogin";
+import LoginPage from "./pages/LoginPage";
 export default createBrowserRouter(createRoutesFromElements(
     <>
         <Route path="/" element={<HomePage/>} />
