@@ -18,7 +18,7 @@ function App () {
                     "href": "http://localhost:5173/ProductListing"
                 }
             }>
-            <ProductListing/> [3]
+            <ProductListing/>
             </Section>
             <ProductOffer/>
         </Layout>
