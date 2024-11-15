@@ -1,4 +1,5 @@
 
+import FormRegister from "../components/FormRegister"
 import LayoutLogin from "../components/LayoutLogin"
 
 function App (){
@@ -6,7 +7,7 @@ function App (){
     return(
         <>
         <LayoutLogin>
-        
+        <FormRegister/>
         </LayoutLogin>
        
       </>  
