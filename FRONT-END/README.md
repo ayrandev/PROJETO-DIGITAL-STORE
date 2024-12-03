@@ -18,9 +18,9 @@ Antes de iniciar, verifique se você já possui os seguintes ferramentas instala
     2.2 Clonando o Repositório:
     - Passo 1:
 No seu CMD, clone o repositório para a sua máquina local usando o comando:
-"git clone https://github.com/gt-05/grupo-01.git"
+"git clone https://github.com/ayrandev/PROJETO-DIGITAL-STORE.git"
     - Passo 2:
-Use o comando "cd grupo-01" para entrar na pasta do projeto e em seguida use o comando "code" para abrir no seu versionador de código.
+Use o comando "cd PROJETO-DIGITAL-STORE" para entrar na pasta do projeto e em seguida use o comando "code" para abrir no seu versionador de código.
 
     2.3 Instalando dependências:
 Com seu versionador aberto, acesse o CMD do mesmo e use o comando "npm install"
